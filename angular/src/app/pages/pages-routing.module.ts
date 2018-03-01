@@ -17,14 +17,10 @@ const routes: Routes = [{
     path: 'signup',
     loadChildren: './signup/signup.module#SignupModule',
   },
-  { 
-    path: 'store',
-    loadChildren: './store/store.module#StoreModule',
-
-  }, {
-    path: '',
-    loadChildren: './signup/signup.module#SignupModule',
-  },{
+  {
+   path: 'store',
+   loadChildren: './store/store.module#StoreModule',
+ },{
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',

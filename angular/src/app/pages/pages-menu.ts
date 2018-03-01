@@ -11,16 +11,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     group: true,
   },
-  {
-    title: 'Store',
-    icon: 'nb-coffee-maker',
-    children: [
-      {
-        title: 'Store Table',
-        link: '/pages/store/store-table',
-      },
-    ],
-  },
+
   {
     title: 'Auth',
     icon: 'nb-locked',
@@ -35,4 +26,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+{
+  title: 'Store',
+  children:[
+{
+  title: 'Navigate Store',
+  link: '/pages/store/store-table'
+},
+
+],
+
+},
+
 ];

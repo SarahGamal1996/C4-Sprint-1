@@ -9,12 +9,14 @@ export interface LoginData {
     password: String;
 }
 
+export interface ProductData
+{
+  _id: String;
+  id: Number;
+  name: String;
+  price: Number;
+  createdAt: String;
+  updatedAt: String;
+  seller: String;
 
-export interface ProductData {
-    _id:String;
-    name: String;
-    price: Number; 
-    createdAt: String; 
-    updatedAt: String;
-    sellerName:  String;
 }
